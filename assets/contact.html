@@ -7,10 +7,10 @@
 </head>
 
 <body>
-    <section>
-            <header><p>Copyright</p></header>
+
+    <section id="Top">
             <!--Copyright-->
-            <h1>Laura Neff</h1>
+            <h1 id="Name">Laura Neff</h1>
             <nav>
                 <a href="index.html">About</a>
                 
@@ -19,27 +19,33 @@
                 <a href="contact.html">Contact</a>
             </nav>
     </section>
+
+    <section id="content">
+            <h1 id="contact">Contact</h1>
+            <form>
+            Name<br>
+            <input type="text" name="firstname">
+            </form>
+        
+            <form>
+            Email<br>
+            <input type="text" name="Email">
+            </form>
+        
+            <form>
+            Message<br>
+            <textarea> 
+                </textarea>
+            </form>
+        
+            <form action="/action_page.php" method="post">
+                <input type="submit" value="Submit" id ="submit">
+            </form>
+    </section>
+
+    <footer><p>Copyright</p></footer>
    
-    <h1>Contact</h1>
-    <form>
-    Name<br>
-    <input type="text" name="firstname">
-    </form>
-
-    <form>
-    Email<br>
-    <input type="text" name="Email">
-    </form>
-
-    <form>
-    Message<br>
-    <textarea> 
-        </textarea>
-    </form>
-
-    <form action="/action_page.php" method="post">
-        <input type="submit" value="Submit">
-    </form>
+   
 
 </body>
 
